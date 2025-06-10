@@ -1,0 +1,32 @@
+# Binarios de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Archivos de compilación
+build/
+bin/
+
+# Archivos temporales del sistema
+*.log
+*.tmp
+*.out
+
+# Archivos generados por Go
+vendor/
+coverage.out
+
+# Configuración de entorno o IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Archivos sensibles
+config/credenciales.json
+.env
+
+# Archivos de prueba
+test/results/
